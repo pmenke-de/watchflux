@@ -1,0 +1,18 @@
+influx:
+  url: http://localhost:8086
+  username: 
+  password: 
+  database: 
+
+postgres:
+  archiver:
+    - label: 
+      url: jdbc:postgresql://localhost/postgres
+      username: 
+      password: 
+  replication:
+    - label: 
+      subscriptionName: 
+      url: jdbc:postgresql://localhost/postgres
+      username: 
+      password: 
